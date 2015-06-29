@@ -1,51 +1,50 @@
-<style type="text/css">
-.body
-{
-  font-family:"Times New Roman", Times, serif;
-}
-.tg  
-{
-  border-collapse:collapse;
-  border-spacing:0;
-  border-color:#bbb;
-  margin:0px auto;
+
+body {
+  background-color: #B8944D;
+  font-family: "Monaco";
 }
 
-.tg td 
+.tictactoe-game, table
 {
-  font-family:Arial, sans-serif;
-  font-size:14px;
+  font-size: 160px;
+  width: 50%;
+  border-collapse: collapse;	/* merges table borders into solid lines */
+  margin:0px auto;				/* moves table down from previous element */
+  background-color:#00FFCC;		/* table background color */
+  text-align:center;			/* center aligns text inside table */
+  padding:0px 70px;			/* adjusts vertical + horizontal padding inside cells */
+}
+
+th, td
+{
+  height: 5px;
+  font-size: 160px;
+  border-style:solid;			/* creates interior borders */
+  border-width:10px;				/* thickness attribute for interior borders */
+}
+
+
+/*
+  border-color: black;
+
+  font-size:100px;
   padding:10px 5px;
   border-style:solid;
-  border-width:1px;
-  overflow:hidden;
-  word-break:normal;
-  border-color:#bbb;
+  border-width:100px;
+  border-color:black;
   color:#594F4F;
   background-color:#E0FFEB;
-}
 
-.tg th
-{
-  font-family:Arial, sans-serif;f
-  ont-size:14px;
-  font-weight:normal;
-  padding:10px 5px;
-  border-style:solid;
-  border-width:1px;
+
   overflow:hidden;
-  word-break:normal;
   border-color:#bbb;
   color:#493F3F;
-  background-color:#9DE0AD;
-}
 
-.tg .tg-w6qv
-{
-  font-weight:bold;
-  font-size:36px;
-  font-family:"Courier New", Courier, monospace !important;;
-  color:#f56b00;
-  text-align:center
-}
-</style>
+    width: 50%;
+  border: 10px solid black;		/* defines border thickness and color.  Solid required 
+  border-collapse: collapse;	/* merges table borders into solid lines 
+  margin:0px auto;				/* moves table down from previous element 
+  background-color:#00FFCC;		/* table background color 
+  text-align:center;			/* center aligns text inside table 
+  padding:0px 70px;			/* adjusts vertical + horizontal padding inside cells 
+*/
