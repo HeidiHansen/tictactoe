@@ -1,4 +1,8 @@
 # tictactoe
+This is a tictactoe interview challenge solution.  
+
+Below are instructions on necessary steps to improve upon it to make it interactive
+
 An interactive tictactoe game written in HTML, CSS, and Javascript.  
 
 Steps to make interactive tictactoe.js
